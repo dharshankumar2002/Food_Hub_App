@@ -11,7 +11,7 @@ Android application for ordering food 🍔 <br>
 
 <br>
 Only the Front-end part of app (xml files) is given in this repository. <br>
-The Back-end part of this app (kotlin code) is made private. If are interested in collabrating to this app, do <a href="https://www.linkedin.com/in/dharshan-kumar-ba09521a0/">message me in LinkedIn</a>
+The Back-end part of this app (kotlin code) is made private. If you are interested in collabrating to this app, do <a href="https://www.linkedin.com/in/dharshan-kumar-ba09521a0/">message me in LinkedIn</a>
 <br>
 <hr style=\"border:0.5px solid gray\"> </hr>
 
