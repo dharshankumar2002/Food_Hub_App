@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/orange_light"
+    tools:ignore="MissingClass">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_profile_pic"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dharshan Kumar"
+        android:textColor="#ffffff"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dharshankumar55@gmail.com"
+        android:textColor="#ffffff"
+        android:layout_marginTop="-10dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

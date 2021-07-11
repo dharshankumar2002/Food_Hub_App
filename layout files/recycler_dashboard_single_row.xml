@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/rlContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- This file is for creating the View of a single List item-->
+
+            <ImageView
+                android:id="@+id/imgHotelImage"
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:src="@drawable/img_parotta"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/txtHotelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgHotelImage"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Restaurant Name"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/txtHotelPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgHotelImage"
+                android:layout_below="@+id/txtHotelName"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Rs. 280/person"
+                android:textSize="15sp"
+                android:textColor="#858885"
+                />
+
+            <TextView
+                android:id="@+id/txtHotelFavourite"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="10dp"
+                android:backgroundTint="#E91E63"
+                android:background="@drawable/ic_favourites_nofill"
+                android:tag="unliked"
+                />
+
+            <TextView
+                android:id="@+id/txtHotelRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="10dp"
+                android:text="4.5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#FFD700"
+                android:drawableTint="#ffc828"
+                android:drawableLeft="@drawable/ic_ratings"
+                android:drawablePadding="2dp"
+                />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
