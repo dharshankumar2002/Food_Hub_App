@@ -39,4 +39,16 @@ I Retrieved data from these links to make this app:<br>
 |Order History | http://13.235.250.119/v2/orders/fetch_result/user_id/ |
 ###
 
-This Food-Hub app fetches data from these API links and displays it in each section of the app
+This Food-Hub app fetches data from these API links and displays it in each section of the app <br><br>
+
+<hr style=\"border:0.5px solid gray\"> </hr>
+
+## Libraries used:
+This app is made using Adroid Studio SDK which is highly recommended by Google Inc. for developing native apps in android
+I used few external libraries other than the libraries provided by the SDK, those are:
+1. <b>ROOM persistance library</b> - For storing app data using SQL Relative database
+2. <b>Volley</b> - For fetching JSON files for text data
+3. <b>Picasso</b> - For fetching JSON files for Image data 
+4. <b>Google Android Material</b> - For customize font styles
+5. <b>Makeramen</b> - To customize images styles
+
